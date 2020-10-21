@@ -8,7 +8,7 @@ var app = express()
 app.use(express.static('src'));// get the content (such as scripts)
 
 app.get('/',(req,res)=>{
-    res.render('index')
+    res.render('index',{lol:"lol"})
 })
 
 
